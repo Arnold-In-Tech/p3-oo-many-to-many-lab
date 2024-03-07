@@ -115,7 +115,7 @@ class Contract:
         if type(value) == int:
             self._royalties = value
         else:
-            raise TypeError("royalties must be of type string")
+            raise TypeError("royalties must be of type integer")
 
     # ======================== 
     @classmethod
